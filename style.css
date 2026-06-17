@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+BODY {
+    
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  border-bottom: solid black 1px;
+  gap: 30px;
+  align-items: center;
+}
+
+.navbar-s1__title{
+  color: blueviolet;
+  padding: 10px;
+}
+.navbar-s2{
+  display: flex;
+  padding: 10px;
+  border: solid black 1px;
+  border-radius: 30px;
+  width: 50%;
+  gap: 10px;
+  align-items: center;
+}
+
+.navbar-s2 input{
+  border: none;
+  font-size: 16px;
+  
+}
+.navbar-s2 input:focus{
+  outline: none;
+}
+
+.navbar-s3{
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  align-items: center;
+}
+
+.categories{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.categories p{
+background-color: violet;
+color: white;
+border-radius: 30px;
+padding: 10px;
+}
+
+
+
+.sales-image{
+  
+  display: flex;
+  justify-content: center;
+  width: 1340px;
+  height: 400px;
+  padding-left: 5px;
+  flex-wrap: wrap;
+}
+
+.recommend{
+  padding: 10px;
+}
+
+.recommended-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.cards{
+  width: 250px;
+
+padding: 20px;
+border-radius: 20px;
+
+}
+
+.cards img{
+  width: 100%;
+  border-radius: 20px;
+ height: 50%;
+}
+
+
+.topics{
+  padding: 10px;
+}
+
+.topics-container{
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  
+}
+
+.topics-container p{
+  border: solid 1px black;
+  flex-grow: 1;
+  padding: 10px;
+  text-align: center;
+  flex-basis: 25%;
+}
+
+.Popular{
+padding: 10px;
+}
+
+.Popular-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+  
+}
+
+
+.footer-s1{
+  display: flex;
+  gap: 10px;
+
+}
+
+.footer-s2{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px;
+  align-items: center;
+
+}
+
+.footer{
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+.footer-s1 p{
+  margin: 20px;
+}
